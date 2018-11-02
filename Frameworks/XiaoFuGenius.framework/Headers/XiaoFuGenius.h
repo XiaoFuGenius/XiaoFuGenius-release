@@ -18,9 +18,9 @@ FOUNDATION_EXPORT const unsigned char XiaoFuGeniusVersionString[];
 
 /**
  XiaoFuGenius版本号
- 更新时间：2018.11.02 16:37
+ 更新时间：2018.11.02 17:31
  */
-#define XiaoFuGenius_SDK_VERSION @"1.0.0"
+#define XiaoFuGenius_SDK_VERSION @"1.0.2"
 
 /* 默认设置 */
 #import "XFGeniusConfig.h"
