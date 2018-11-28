@@ -41,6 +41,11 @@
 + (XFGeniusCamera *)SharedCamera;
 
 /**
+ 移除之前设置的View 释放内存
+ */
+- (void)destroyedCameraView;
+
+/**
  Method,02-开启摄像头
  @param ip 传输用ip地址
  @param cameraView 承载图像的父视图
