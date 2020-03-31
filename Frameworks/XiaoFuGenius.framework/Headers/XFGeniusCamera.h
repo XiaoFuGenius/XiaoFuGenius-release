@@ -26,6 +26,11 @@
 @property (nonatomic, assign) int port;
 
 /**
+ 拍摄模式：0-优先拍摄表皮层，1-优先拍摄基底层（核心版本 >= 3.1.2）；默认 0；
+ */
+@property (nonatomic, assign) int captureMode;
+
+/**
  摄像头开启成功 回调
  */
 @property (nonatomic, copy) void (^Noti_CameraOK)(void);
